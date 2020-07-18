@@ -9,7 +9,7 @@ class Home extends Component {
                         <table className="table">
                             <thead>
                                 <tr>
-                                    <th colSpan="10">NeighborHood</th>
+                                    <th colSpan="10" className="text-center">NeighborHood</th>
                                 </tr>
                                 <tr>
                                     <th scope="col">Name</th>
@@ -42,20 +42,18 @@ class Home extends Component {
                         </table>
                     </div>
                 </div>
-                <div clasName="row">
+                <div className="row">
                     <div className="col-xs-12 col-md-12">
                         <table className="table">
                             <thead>
                                 <tr>
-                                    <th colSpan="8">Neighborhood Meetings</th>
+                                    <th colSpan="7" className="text-center">Neighborhood Meetings</th>
                                 </tr>
                                 <tr>
                                     <th scope="col">Neighborhood Name</th>
-                                    <th scope="col">Name</th>
                                     <th scope="col">Day</th>
                                     <th scope="col">Month</th>
-                                    <th scope="col">Repeating</th>
-                                    <th scope="col">Location</th>
+                                    <th scope="col">Frequency</th>
                                     <th scope="col">Time</th>
                                     <th scope="col">Notes</th>
                                     <th scope="col">Last Updated</th>
