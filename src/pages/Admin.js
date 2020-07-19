@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-class Home extends Component {
+class Admin extends Component {
     render() {
         return (
-            <div className="container mt-2">
+            <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-md-12">
                         <table className="table">
                             <thead>
                                 <tr>
-                                    <th colSpan="10" className="text-center">NeighborHood</th>
+                                    <th colSpan="11" className="text-center">NeighborHood</th>
                                 </tr>
                                 <tr>
                                     <th scope="col">Name</th>
@@ -23,7 +23,7 @@ class Home extends Component {
                                     <th scope="col">Facebook Page</th>
                                     <th scope="col">Notes</th>
                                     <th scope="col">Last Updated</th>
-                                    <th scope="col">Actions</th>
+                                    <th scope="col">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -52,7 +52,7 @@ class Home extends Component {
                         <table className="table">
                             <thead>
                                 <tr>
-                                    <th colSpan="8" className="text-center">Neighborhood Meetings</th>
+                                    <th colSpan="8" className="text-center">Meetings</th>
                                 </tr>
                                 <tr>
                                     <th scope="col">Neighborhood Name</th>
@@ -62,7 +62,7 @@ class Home extends Component {
                                     <th scope="col">Time</th>
                                     <th scope="col">Notes</th>
                                     <th scope="col">Last Updated</th>
-                                    <th scope="col">Actions</th>
+                                    <th scope="col">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -74,7 +74,54 @@ class Home extends Component {
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td><button className="btn btn-primary">Properties</button></td>
+                                    <td>
+                                        <button className="btn btn-primary">Properties</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-xs-12 col-md-12">
+                        <table className="table">
+                            <thead>
+                                <tr>
+                                    <th colSpan="12" className="text-center">Users</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">Position</th>
+                                    <th scope="col">Contact</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Address 1</th>
+                                    <th scope="col">Address 2</th>
+                                    <th scope="col">City</th>
+                                    <th scope="col">State</th>
+                                    <th scope="col">Zip</th>
+                                    <th scope="col">NewsLetter</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                        <button className="btn btn-primary">Properties</button>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -85,4 +132,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Admin;

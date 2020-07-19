@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AppHeader from './components/AppHeader';
 import Home from './pages/Home';
 import Login from './pages/Login';
-import SignUp from './pages/SignUp';
-import Meetings from './pages/Meetings';
-import CreateNeighborhood from './pages/CreateNeighborhood';
+import Admin from './pages/Admin';
 import AppFooter from './components/AppFooter';
 import './App.css';
 import 'bootstrap';
@@ -19,9 +17,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/login" component={Login} />
-            <Route path="/signup" component={SignUp} />
-            <Route path="/create/meetings" component={Meetings} />
-            <Route path="/create/neighborhood" component={CreateNeighborhood} />
+            <Route path="/admin" component={Admin} />
           </Switch>
           <AppFooter />
         </div>
