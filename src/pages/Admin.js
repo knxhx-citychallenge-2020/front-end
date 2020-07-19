@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { PrivateNeighborhoodModal, PrivateMeetingModal, PrivateUserModal } from '../components/Private.modal.js'
 
 class Admin extends Component {
     render() {
@@ -40,7 +41,7 @@ class Admin extends Component {
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <button className="btn btn-primary">Properties</button>
+                                        <PrivateNeighborhoodModal />
                                     </td>
                                 </tr>
                             </tbody>
@@ -75,7 +76,7 @@ class Admin extends Component {
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <button className="btn btn-primary">Properties</button>
+                                        <PrivateMeetingModal />
                                     </td>
                                 </tr>
                             </tbody>
@@ -120,7 +121,7 @@ class Admin extends Component {
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <button className="btn btn-primary">Properties</button>
+                                        <PrivateUserModal />
                                     </td>
                                 </tr>
                             </tbody>
