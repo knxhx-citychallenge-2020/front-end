@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { PublicNeighborhoodModal, PublicMeetingModal } from '../components/Public.modal'
 
 class Home extends Component {
     render() {
@@ -40,7 +41,7 @@ class Home extends Component {
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <button className="btn btn-primary">Properties</button>
+                                        <PublicNeighborhoodModal />
                                     </td>
                                 </tr>
                             </tbody>
@@ -74,7 +75,9 @@ class Home extends Component {
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td><button className="btn btn-primary">Properties</button></td>
+                                    <td>
+                                        <PublicMeetingModal />
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
